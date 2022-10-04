@@ -7,7 +7,7 @@ import java.io.Writer;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Writer writer = new FileWriter("spit");
+        Writer writer = new FileWriter("/home/superman/spit");
         for(long i = 2; true; i++){
             logic(2*i,writer);
         }
